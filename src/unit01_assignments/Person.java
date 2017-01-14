@@ -1,6 +1,5 @@
 package unit01_assignments;
 
-
 public class Person 
 {
     public String fName;
@@ -8,10 +7,12 @@ public class Person
     public String streetAddress;
     public String phoneNumber;
     
+    //Empty constructor. This enables the "Customer" class to extend this class.
     public Person ()
     {
         
     }
+    
     public Person(String fnme, String lnme, String stadd, String phnmbr)
     {
         fName = fnme;
