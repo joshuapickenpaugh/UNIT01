@@ -8,6 +8,10 @@ public class Person
     public String streetAddress;
     public String phoneNumber;
     
+    public Person ()
+    {
+        
+    }
     public Person(String fnme, String lnme, String stadd, String phnmbr)
     {
         fName = fnme;
