@@ -21,6 +21,9 @@ public class Person
         return fName;
     }
     
-    public 
+    public String getLastName()
+    {
+        return lName;
+    }
     
 }
