@@ -26,4 +26,14 @@ public class Person
         return lName;
     }
     
+    public String getStreetAddress()
+    {
+        return streetAddress;
+    }
+    
+    public String getPhoneNumber()
+    {
+        return phoneNumber;
+    }
+    
 }
