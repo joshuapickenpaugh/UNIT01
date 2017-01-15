@@ -7,37 +7,29 @@ package unit01_assignments;
 
   public class GradedActivity
   {
-      // Numeric score
-      private double score;  
-
-      //This is the GradedActivity arrary that is named "grades" as a field:
-      int[] grades;
-
-    public GradedActivity()
-    {
-        
-    }
+    // Numeric score
+    private double score;  
      
-     // The setScore method sets the score field.
-     // @param s The value to store in score.
-     public void setScore(double s)
-     {
-        score = s;
-     }
+    // The setScore method sets the score field.
+    // @param s The value to store in score.
+    public void setScore(double s)
+    {
+       score = s;
+    }
 
-     // The getScore method returns the score.
-     // @return The value stored in the score field.
-     public double getScore()
-     {
-        return score;
-     }
+    // The getScore method returns the score.
+    // @return The value stored in the score field.
+    public double getScore()
+    {
+       return score;
+    }
 
-     // The getGrade method returns a letter grade
-     // determined from the score field.
-     // @return The letter grade.
-     public char getGrade()
-     {
-        char letterGrade;
+    // The getGrade method returns a letter grade
+    // determined from the score field.
+    // @return The letter grade.
+    public char getGrade()
+    {
+       char letterGrade;
 
         if (score >= 90)
            letterGrade = 'A';
@@ -51,5 +43,5 @@ package unit01_assignments;
            letterGrade = 'F';
 
         return letterGrade;
-     }
-  }
+    }
+ }
