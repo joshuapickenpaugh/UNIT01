@@ -11,7 +11,7 @@ package unit01_assignments;
       private double score;  
 
       //This is the GradedActivity arrary that is named "grades" as a field:
-      int[] grades = {90, 72, 89, 92};
+      int[] grades;
 
     public GradedActivity()
     {
