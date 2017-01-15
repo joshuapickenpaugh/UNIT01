@@ -11,17 +11,20 @@ public class CourseGrades extends GradedActivity //implements Analyzable
         
     }
     
-    public void setPassFailExam(GradedActivity object)
+    //Where is the "PassFailExam" class?:
+    public void setPassFailExam(PassFailExam object)
     {
         
     }
     
-    public void setEssay(GradedActivity object)
+    //Where is the "Essay" class?:
+    public void setEssay(Essay object)
     {
         
     }
     
-    public void setFinalExam(GradedActivity object)
+    //Where is the "FinalExam" class?:
+    public void setFinalExam(FinalExam object)
     {
         
     }
