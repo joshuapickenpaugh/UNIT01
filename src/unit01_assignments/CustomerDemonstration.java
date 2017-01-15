@@ -4,6 +4,8 @@ public class CustomerDemonstration {
     
         public static void main(String[] args) 
     {
+        
+        //Simple output of the inheritance example...it works!:
         Customer customer = new Customer("987-6543", false);
         
         System.out.println(customer.getFirstName());
