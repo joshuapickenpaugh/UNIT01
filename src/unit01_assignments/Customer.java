@@ -44,7 +44,7 @@ public class Customer extends Person {
     
     public Boolean subscribedToMailingList()
     {
-        if (mailingList = false)
+        if (mailingList == false)
         {
             return false;
         }
