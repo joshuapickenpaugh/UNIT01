@@ -1,6 +1,6 @@
 package unit01_assignments;
 
-public class CourseGrades 
+public class CourseGrades extends GradedActivity
 {
     //blahblahblah    
 }
